@@ -1,4 +1,5 @@
 <template>
+ <div>
   <div class="row">
     <div class="col-md-4 offset-md-4">
       <h3 class="my-3">Home</h3>
@@ -13,7 +14,8 @@
         </button>
       </form>
     </div>
-  </div>
+  </div> 
+ 
   <table class="table table-striped table-bordered table-hover">
     <thead>
       <tr>
@@ -40,6 +42,7 @@
       </tr>
     </tbody>
   </table>
+ </div>
 </template>
 <script>
 import { ref } from "vue";
