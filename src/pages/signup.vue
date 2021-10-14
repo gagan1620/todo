@@ -64,7 +64,7 @@ export default {
         }
 
         this.showLoading(false);
-        //this.$router.push('/');
+        this.$router.push('/home');
       }
     },
   },
